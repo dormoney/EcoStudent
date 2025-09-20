@@ -1,0 +1,61 @@
+<Window x:Class="eco.Views.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="NoResize"
+        Background="{DynamicResource MaterialDesignPaper}"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        FontFamily="{DynamicResource MaterialDesignFont}">
+
+    <Grid Margin="0,0,0,-50">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="21*"/>
+            <ColumnDefinition Width="79*"/>
+        </Grid.ColumnDefinitions>
+        <materialDesign:Card Margin="16,16,16,16" Padding="32" Grid.ColumnSpan="2">
+            <StackPanel>
+
+                <TextBlock Text="Вход " FontSize="24" FontWeight="Bold" 
+                          HorizontalAlignment="Center" Margin="0,0,0,32"/>
+
+                <TextBox x:Name="EmailTextBox" 
+                        materialDesign:HintAssist.Hint="Email"
+                        Style="{DynamicResource MaterialDesignFloatingHintTextBox}"
+                        GotFocus="EmailTextBox_GotFocus"
+                        Margin="0,0,0,16"/>
+
+                <PasswordBox x:Name="PasswordBox" 
+                            materialDesign:HintAssist.Hint="Пароль"
+                            Style="{DynamicResource MaterialDesignFloatingHintPasswordBox}"
+                            GotFocus="PasswordBox_GotFocus"
+                            Margin="0,0,0,24"/>
+
+                <Button x:Name="LoginButton" Content="Войти" 
+                       Style="{DynamicResource MaterialDesignRaisedButton}"
+                       Click="LoginButton_Click"
+                       IsDefault="True"
+                       Margin="0,0,0,16"/>
+
+                <Button x:Name="RegisterButton" Content="Создать новый аккаунт" 
+                       Style="{DynamicResource MaterialDesignOutlinedButton}"
+                       Click="RegisterButton_Click"
+                       Margin="0,8,0,0"/>
+
+                <TextBlock x:Name="ErrorMessageTextBlock" 
+                          Text="" 
+                          Foreground="Red" 
+                          HorizontalAlignment="Center" 
+                          Margin="0,16,0,0"
+                          Visibility="Collapsed"/>
+            </StackPanel>
+        </materialDesign:Card>
+    </Grid>
+</Window>

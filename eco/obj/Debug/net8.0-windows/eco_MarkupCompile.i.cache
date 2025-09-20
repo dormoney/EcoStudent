@@ -1,0 +1,20 @@
+﻿eco
+1.0.0.0
+
+winexe
+C#
+.cs
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\obj\Debug\net8.0-windows\
+eco
+none
+false
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\App.xaml
+20-539800486
+
+48401266918
+250170890083
+MainWindow.xaml;Views\AchievementsView.xaml;Views\AdminMainWindow.xaml;Views\AdminPromotionsView.xaml;Views\AdminRecyclingPointsView.xaml;Views\AdminStatisticsView.xaml;Views\AdminUserRegistrationView.xaml;Views\AdminUsersManagementView.xaml;Views\AdminVerificationView.xaml;Views\ChallengesView.xaml;Views\LoginWindow.xaml;Views\NewsDetailWindow.xaml;Views\NewsView.xaml;Views\PromotionsView.xaml;Views\RecyclingPointsView.xaml;Views\RegisterWindow.xaml;Views\RoleSelectionWindow.xaml;Views\SubmissionDetailsWindow.xaml;Views\SubmissionView.xaml;Views\UserProfileView.xaml;
+
+False
+

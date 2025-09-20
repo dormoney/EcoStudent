@@ -1,0 +1,108 @@
+<Window x:Class="eco.Views.RoleSelectionWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="Выбор интерфейса" 
+        Height="400" 
+        Width="500"
+        WindowStartupLocation="CenterScreen"
+        Background="{DynamicResource MaterialDesignPaper}"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        FontFamily="{DynamicResource MaterialDesignFont}">
+
+    <Grid Margin="32">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Header -->
+        <StackPanel Grid.Row="0" Margin="0,0,0,32">
+            <TextBlock Text="Добро пожаловать!" 
+                       FontSize="24" 
+                       FontWeight="Bold" 
+                       HorizontalAlignment="Center" 
+                       Margin="0,0,0,8"/>
+            <TextBlock x:Name="WelcomeText" 
+                       Text="Выберите интерфейс для работы" 
+                       FontSize="16" 
+                       Opacity="0.7" 
+                       HorizontalAlignment="Center"/>
+        </StackPanel>
+
+        <!-- Role Selection -->
+        <StackPanel Grid.Row="1" VerticalAlignment="Center">
+            <materialDesign:Card Margin="0,0,0,16" Padding="24">
+                <StackPanel>
+                    <materialDesign:PackIcon Kind="Account" 
+                                             Width="48" 
+                                             Height="48" 
+                                             HorizontalAlignment="Center" 
+                                             Margin="0,0,0,16"/>
+                    <TextBlock Text="Пользовательский интерфейс" 
+                               FontSize="18" 
+                               FontWeight="Bold" 
+                               HorizontalAlignment="Center" 
+                               Margin="0,0,0,8"/>
+                    <TextBlock Text="Сдача вторсырья, просмотр баллов, участие в акциях" 
+                               FontSize="14" 
+                               Opacity="0.7" 
+                               HorizontalAlignment="Center" 
+                               TextWrapping="Wrap" 
+                               Margin="0,0,0,16"/>
+                    <Button x:Name="UserInterfaceButton" 
+                            Content="Войти как пользователь" 
+                            Style="{DynamicResource MaterialDesignRaisedButton}"
+                            Click="UserInterfaceButton_Click"
+                            HorizontalAlignment="Center"/>
+                </StackPanel>
+            </materialDesign:Card>
+
+            <materialDesign:Card x:Name="AdminCard" 
+                                 Margin="0,0,0,16" 
+                                 Padding="24" 
+                                 Visibility="Collapsed">
+                <StackPanel>
+                    <materialDesign:PackIcon Kind="ShieldAccount" 
+                                             Width="48" 
+                                             Height="48" 
+                                             HorizontalAlignment="Center" 
+                                             Margin="0,0,0,16"/>
+                    <TextBlock Text="Админский интерфейс" 
+                               FontSize="18" 
+                               FontWeight="Bold" 
+                               HorizontalAlignment="Center" 
+                               Margin="0,0,0,8"/>
+                    <TextBlock Text="Управление системой, подтверждение сдач, статистика" 
+                               FontSize="14" 
+                               Opacity="0.7" 
+                               HorizontalAlignment="Center" 
+                               TextWrapping="Wrap" 
+                               Margin="0,0,0,16"/>
+                    <Button x:Name="AdminInterfaceButton" 
+                            Content="Войти как администратор" 
+                            Style="{DynamicResource MaterialDesignRaisedButton}"
+                            Click="AdminInterfaceButton_Click"
+                            HorizontalAlignment="Center"/>
+                </StackPanel>
+            </materialDesign:Card>
+
+        </StackPanel>
+
+        <!-- Footer -->
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,16,0,0">
+            <Button Content="Выйти" 
+                    Style="{DynamicResource MaterialDesignOutlinedButton}"
+                    Click="LogoutButton_Click"
+                    Margin="0,0,8,0"/>
+        </StackPanel>
+    </Grid>
+</Window>

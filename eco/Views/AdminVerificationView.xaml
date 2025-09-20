@@ -1,0 +1,137 @@
+<UserControl x:Class="eco.Views.AdminVerificationView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="800">
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <StackPanel Margin="24">
+            <TextBlock Text="Подтверждение сдач вторсырья" 
+                       FontSize="24" 
+                       FontWeight="Bold" 
+                       Margin="0,0,0,24"/>
+
+            <!-- Filter Panel -->
+            <materialDesign:Card Padding="16" Margin="0,0,0,16">
+                <StackPanel>
+                    <TextBlock Text="Фильтры" 
+                               FontSize="16" 
+                               FontWeight="Bold" 
+                               Margin="0,0,0,12"/>
+
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+
+                        <ComboBox x:Name="StatusFilterComboBox" 
+                                  Grid.Column="0" 
+                                  materialDesign:HintAssist.Hint="Статус"
+                                  Margin="0,0,8,0">
+                            <ComboBoxItem Content="Все" Tag="All"/>
+                            <ComboBoxItem Content="Ожидают подтверждения" Tag="Pending"/>
+                            <ComboBoxItem Content="Подтвержденные" Tag="Verified"/>
+                        </ComboBox>
+
+                        <ComboBox x:Name="MaterialFilterComboBox" 
+                                  Grid.Column="1" 
+                                  materialDesign:HintAssist.Hint="Тип материала"
+                                  Margin="0,0,8,0"/>
+
+                        <DatePicker x:Name="DateFilterPicker" 
+                                    Grid.Column="2" 
+                                    materialDesign:HintAssist.Hint="Дата сдачи"
+                                    Margin="0,0,8,0"/>
+
+                        <Button x:Name="ApplyFilterButton" 
+                                Grid.Column="3" 
+                                Content="Применить" 
+                                Style="{DynamicResource MaterialDesignRaisedButton}"
+                                Click="ApplyFilterButton_Click"/>
+                    </Grid>
+                </StackPanel>
+            </materialDesign:Card>
+
+            <!-- Submissions List -->
+            <materialDesign:Card Padding="16">
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,16">
+                        <TextBlock Text="Сдачи вторсырья" 
+                                   FontSize="18" 
+                                   FontWeight="Bold"/>
+                        <TextBlock x:Name="SubmissionsCountText" 
+                                   Text=" (0)" 
+                                   FontSize="18" 
+                                   Opacity="0.7"
+                                   Margin="4,0,0,0"/>
+                    </StackPanel>
+
+                    <DataGrid x:Name="SubmissionsDataGrid" 
+                              AutoGenerateColumns="False" 
+                              CanUserAddRows="False" 
+                              CanUserDeleteRows="False"
+                              IsReadOnly="True"
+                              GridLinesVisibility="Horizontal"
+                              HeadersVisibility="Column"
+                              SelectionChanged="SubmissionsDataGrid_SelectionChanged">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="ID" Binding="{Binding SubmissionId}" Width="50"/>
+                            <DataGridTextColumn Header="Пользователь" Binding="{Binding User.FullName}" Width="150"/>
+                            <DataGridTextColumn Header="Email" Binding="{Binding User.Email}" Width="200"/>
+                            <DataGridTextColumn Header="Материал" Binding="{Binding MaterialType}" Width="100"/>
+                            <DataGridTextColumn Header="Вес (кг)" Binding="{Binding WeightKg, StringFormat=F1}" Width="80"/>
+                            <DataGridTextColumn Header="Пункт" Binding="{Binding RecyclingPoint.Name}" Width="150"/>
+                            <DataGridTextColumn Header="Дата" Binding="{Binding SubmissionDate, StringFormat=dd.MM.yyyy HH:mm}" Width="120"/>
+                            <DataGridTextColumn Header="Баллы" Binding="{Binding PointsAwarded}" Width="80"/>
+                            <DataGridTemplateColumn Header="Статус" Width="120">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding IsVerified, Converter={StaticResource BoolToStatusConverter}}" 
+                                                   Foreground="{Binding IsVerified, Converter={StaticResource BoolToColorConverter}}"
+                                                   FontWeight="Bold"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </StackPanel>
+            </materialDesign:Card>
+
+            <!-- Action Panel -->
+            <materialDesign:Card Padding="16" Margin="0,16,0,0">
+                <StackPanel>
+                    <TextBlock Text="Действия с выбранной сдачей" 
+                               FontSize="16" 
+                               FontWeight="Bold" 
+                               Margin="0,0,0,12"/>
+
+                    <StackPanel x:Name="ActionPanel" Orientation="Horizontal">
+                        <Button x:Name="ApproveButton" 
+                                Content="Подтвердить" 
+                                Style="{DynamicResource MaterialDesignRaisedButton}"
+                                Click="ApproveButton_Click"
+                                Margin="0,0,8,0"
+                                IsEnabled="False"/>
+                        <Button x:Name="RejectButton" 
+                                Content="Отклонить" 
+                                Style="{DynamicResource MaterialDesignOutlinedButton}"
+                                Click="RejectButton_Click"
+                                Margin="0,0,8,0"
+                                IsEnabled="False"/>
+                        <Button x:Name="ViewDetailsButton" 
+                                Content="Подробности" 
+                                Style="{DynamicResource MaterialDesignOutlinedButton}"
+                                Click="ViewDetailsButton_Click"
+                                IsEnabled="False"/>
+                    </StackPanel>
+                </StackPanel>
+            </materialDesign:Card>
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>

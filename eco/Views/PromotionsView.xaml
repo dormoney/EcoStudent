@@ -1,0 +1,143 @@
+<UserControl x:Class="eco.Views.PromotionsView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="800"
+             Background="{DynamicResource MaterialDesignPaper}">
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <StackPanel Margin="16">
+            <TextBlock Text="Акции" FontSize="28" Margin="0,0,0,16"/>
+            <TextBlock Text="Обменяйте баллы на полезные акции" FontSize="16" Opacity="0.7" Margin="0,0,0,32"/>
+
+            <!-- Информация о баллах -->
+            <materialDesign:Card Padding="16" Margin="0,0,0,24">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <TextBlock Text="Ваши баллы:" FontSize="18" VerticalAlignment="Center" Margin="0,0,8,0"/>
+                    <TextBlock x:Name="UserPointsTextBlock" Text="0" FontSize="20" FontWeight="Bold" 
+                              VerticalAlignment="Center" Foreground="#FF505050"/>
+                </StackPanel>
+            </materialDesign:Card>
+
+            <!-- Табы -->
+            <TabControl x:Name="PromotionsTabControl" Margin="0,0,0,16">
+                <TabControl.Resources>
+                    <Style TargetType="TabItem">
+                        <Setter Property="Foreground" Value="Black"/>
+                    </Style>
+                </TabControl.Resources>
+                <TabItem Header="Доступные акции">
+                    <ScrollViewer VerticalScrollBarVisibility="Auto">
+                        <ItemsControl x:Name="AvailablePromotionsItemsControl">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <materialDesign:Card Margin="0,0,0,16" Padding="20">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="16"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+
+                                <!-- Информация об акции -->
+                                <StackPanel Grid.Column="0">
+                                    <TextBlock Text="{Binding Title}" FontSize="20" FontWeight="Bold" Margin="0,0,0,8"/>
+                                    <TextBlock Text="{Binding Description}" FontSize="14" Opacity="0.8" 
+                                              TextWrapping="Wrap" Margin="0,0,0,8"/>
+                                    
+                                    <StackPanel Orientation="Horizontal" Margin="0,8,0,0">
+                                        <TextBlock Text="{Binding Category}" VerticalAlignment="Center" Opacity="0.7" Margin="0,0,16,0"/>
+                                        <TextBlock Text="{Binding DiscountValue}" VerticalAlignment="Center" Opacity="0.7"/>
+                                    </StackPanel>
+                                </StackPanel>
+
+                                <!-- Кнопка покупки -->
+                                <StackPanel Grid.Column="2" VerticalAlignment="Center">
+                                    <Button x:Name="BuyButton"
+                                           Content="{Binding PointsCost, StringFormat='Купить за {0} баллов'}"
+                                           Style="{DynamicResource MaterialDesignRaisedButton}"
+                                           Click="BuyButton_Click"
+                                           Tag="{Binding}"
+                                           Margin="0,0,0,8"
+                                           IsEnabled="{Binding CanBuy}"/>
+                                    
+                                    <TextBlock x:Name="StatusTextBlock" 
+                                              Text="{Binding StatusText}" 
+                                              HorizontalAlignment="Center" 
+                                              Opacity="0.7"
+                                              FontSize="12"/>
+                                </StackPanel>
+                            </Grid>
+                        </materialDesign:Card>
+                    </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                    </ScrollViewer>
+                </TabItem>
+                
+                <TabItem Header="Мои акции">
+                    <ScrollViewer VerticalScrollBarVisibility="Auto">
+                        <ItemsControl x:Name="PurchasedPromotionsItemsControl">
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <materialDesign:Card Margin="0,0,0,16" Padding="20">
+                                        <Grid>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="16"/>
+                                                <ColumnDefinition Width="Auto"/>
+                                            </Grid.ColumnDefinitions>
+
+                                            <!-- Информация об акции -->
+                                            <StackPanel Grid.Column="0">
+                                                <TextBlock Text="{Binding Title}" FontSize="20" FontWeight="Bold" Margin="0,0,0,8"/>
+                                                <TextBlock Text="{Binding Description}" FontSize="14" Opacity="0.8" 
+                                                          TextWrapping="Wrap" Margin="0,0,0,8"/>
+                                                
+                                                <StackPanel Orientation="Horizontal" Margin="0,8,0,0">
+                                                    <TextBlock Text="{Binding Category}" VerticalAlignment="Center" Opacity="0.7" Margin="0,0,16,0"/>
+                                                    <TextBlock Text="{Binding DiscountValue}" VerticalAlignment="Center" Opacity="0.7"/>
+                                                </StackPanel>
+                                                
+                                                <TextBlock Text="{Binding PurchaseDate, StringFormat='Куплено: {0:dd.MM.yyyy}'}" 
+                                                          FontSize="12" Opacity="0.6" Margin="0,8,0,0"/>
+                                                
+                                                <TextBlock x:Name="UsedDateTextBlock" 
+                                                          Text="{Binding UsedDate, StringFormat='Использовано: {0:dd.MM.yyyy}'}" 
+                                                          FontSize="12" Opacity="0.6" Margin="0,4,0,0"
+                                                          Visibility="{Binding IsUsed, Converter={StaticResource BooleanToVisibilityConverter}}"/>
+                                            </StackPanel>
+
+                                            <!-- Кнопка использования -->
+                                            <StackPanel Grid.Column="2" VerticalAlignment="Center">
+                                                <Button x:Name="UseButton"
+                                                       Content="Использовать"
+                                                       Style="{DynamicResource MaterialDesignRaisedButton}"
+                                                       Click="UseButton_Click"
+                                                       Tag="{Binding}"
+                                                       Margin="0,0,0,8"
+                                                       IsEnabled="{Binding CanUse}"/>
+                                                
+                                                <TextBlock x:Name="StatusTextBlock" 
+                                                          Text="{Binding StatusText}" 
+                                                          HorizontalAlignment="Center" 
+                                                          Opacity="0.7"
+                                                          FontSize="12"/>
+                                            </StackPanel>
+                                        </Grid>
+                                    </materialDesign:Card>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </ScrollViewer>
+                </TabItem>
+            </TabControl>
+
+            
+           
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>

@@ -1,0 +1,412 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\redmi\\Downloads\\Telegram Desktop\\eco\\eco\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EB71A35F-727F-4BE9-8B09-1FFFB67710C1}|eco\\eco.csproj|c:\\users\\redmi\\downloads\\telegram desktop\\eco\\eco\\eco\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EB71A35F-727F-4BE9-8B09-1FFFB67710C1}|eco\\eco.csproj|solutionrelative:eco\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB71A35F-727F-4BE9-8B09-1FFFB67710C1}|eco\\eco.csproj|c:\\users\\redmi\\downloads\\telegram desktop\\eco\\eco\\eco\\data\\designtimedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB71A35F-727F-4BE9-8B09-1FFFB67710C1}|eco\\eco.csproj|solutionrelative:eco\\data\\designtimedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB71A35F-727F-4BE9-8B09-1FFFB67710C1}|eco\\eco.csproj|c:\\users\\redmi\\downloads\\telegram desktop\\eco\\eco\\eco\\data\\ecodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB71A35F-727F-4BE9-8B09-1FFFB67710C1}|eco\\eco.csproj|solutionrelative:eco\\data\\ecodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB71A35F-727F-4BE9-8B09-1FFFB67710C1}|eco\\eco.csproj|c:\\users\\redmi\\downloads\\telegram desktop\\eco\\eco\\eco\\converters\\nulltovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB71A35F-727F-4BE9-8B09-1FFFB67710C1}|eco\\eco.csproj|solutionrelative:eco\\converters\\nulltovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB71A35F-727F-4BE9-8B09-1FFFB67710C1}|eco\\eco.csproj|c:\\users\\redmi\\downloads\\telegram desktop\\eco\\eco\\eco\\converters\\booleantocolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB71A35F-727F-4BE9-8B09-1FFFB67710C1}|eco\\eco.csproj|solutionrelative:eco\\converters\\booleantocolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB71A35F-727F-4BE9-8B09-1FFFB67710C1}|eco\\eco.csproj|c:\\users\\redmi\\downloads\\telegram desktop\\eco\\eco\\eco\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB71A35F-727F-4BE9-8B09-1FFFB67710C1}|eco\\eco.csproj|solutionrelative:eco\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB71A35F-727F-4BE9-8B09-1FFFB67710C1}|eco\\eco.csproj|c:\\users\\redmi\\downloads\\telegram desktop\\eco\\eco\\eco\\views\\challengesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB71A35F-727F-4BE9-8B09-1FFFB67710C1}|eco\\eco.csproj|solutionrelative:eco\\views\\challengesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB71A35F-727F-4BE9-8B09-1FFFB67710C1}|eco\\eco.csproj|c:\\users\\redmi\\downloads\\telegram desktop\\eco\\eco\\eco\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{EB71A35F-727F-4BE9-8B09-1FFFB67710C1}|eco\\eco.csproj|solutionrelative:eco\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB71A35F-727F-4BE9-8B09-1FFFB67710C1}|eco\\eco.csproj|c:\\users\\redmi\\downloads\\telegram desktop\\eco\\eco\\eco\\views\\userprofileview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB71A35F-727F-4BE9-8B09-1FFFB67710C1}|eco\\eco.csproj|solutionrelative:eco\\views\\userprofileview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB71A35F-727F-4BE9-8B09-1FFFB67710C1}|eco\\eco.csproj|c:\\users\\redmi\\downloads\\telegram desktop\\eco\\eco\\eco\\views\\promotionsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB71A35F-727F-4BE9-8B09-1FFFB67710C1}|eco\\eco.csproj|solutionrelative:eco\\views\\promotionsview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB71A35F-727F-4BE9-8B09-1FFFB67710C1}|eco\\eco.csproj|c:\\users\\redmi\\downloads\\telegram desktop\\eco\\eco\\eco\\views\\promotionsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB71A35F-727F-4BE9-8B09-1FFFB67710C1}|eco\\eco.csproj|solutionrelative:eco\\views\\promotionsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB71A35F-727F-4BE9-8B09-1FFFB67710C1}|eco\\eco.csproj|c:\\users\\redmi\\downloads\\telegram desktop\\eco\\eco\\eco\\views\\recyclingpointsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB71A35F-727F-4BE9-8B09-1FFFB67710C1}|eco\\eco.csproj|solutionrelative:eco\\views\\recyclingpointsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB71A35F-727F-4BE9-8B09-1FFFB67710C1}|eco\\eco.csproj|c:\\users\\redmi\\downloads\\telegram desktop\\eco\\eco\\eco\\views\\newsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB71A35F-727F-4BE9-8B09-1FFFB67710C1}|eco\\eco.csproj|solutionrelative:eco\\views\\newsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB71A35F-727F-4BE9-8B09-1FFFB67710C1}|eco\\eco.csproj|c:\\users\\redmi\\downloads\\telegram desktop\\eco\\eco\\eco\\views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB71A35F-727F-4BE9-8B09-1FFFB67710C1}|eco\\eco.csproj|solutionrelative:eco\\views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB71A35F-727F-4BE9-8B09-1FFFB67710C1}|eco\\eco.csproj|c:\\users\\redmi\\downloads\\telegram desktop\\eco\\eco\\eco\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB71A35F-727F-4BE9-8B09-1FFFB67710C1}|eco\\eco.csproj|solutionrelative:eco\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB71A35F-727F-4BE9-8B09-1FFFB67710C1}|eco\\eco.csproj|c:\\users\\redmi\\downloads\\telegram desktop\\eco\\eco\\eco\\views\\userprofileview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB71A35F-727F-4BE9-8B09-1FFFB67710C1}|eco\\eco.csproj|solutionrelative:eco\\views\\userprofileview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB71A35F-727F-4BE9-8B09-1FFFB67710C1}|eco\\eco.csproj|c:\\users\\redmi\\downloads\\telegram desktop\\eco\\eco\\eco\\views\\submissionview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB71A35F-727F-4BE9-8B09-1FFFB67710C1}|eco\\eco.csproj|solutionrelative:eco\\views\\submissionview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB71A35F-727F-4BE9-8B09-1FFFB67710C1}|eco\\eco.csproj|c:\\users\\redmi\\downloads\\telegram desktop\\eco\\eco\\eco\\views\\registerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB71A35F-727F-4BE9-8B09-1FFFB67710C1}|eco\\eco.csproj|solutionrelative:eco\\views\\registerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB71A35F-727F-4BE9-8B09-1FFFB67710C1}|eco\\eco.csproj|c:\\users\\redmi\\downloads\\telegram desktop\\eco\\eco\\eco\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB71A35F-727F-4BE9-8B09-1FFFB67710C1}|eco\\eco.csproj|solutionrelative:eco\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB71A35F-727F-4BE9-8B09-1FFFB67710C1}|eco\\eco.csproj|c:\\users\\redmi\\downloads\\telegram desktop\\eco\\eco\\eco\\views\\newsdetailwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB71A35F-727F-4BE9-8B09-1FFFB67710C1}|eco\\eco.csproj|solutionrelative:eco\\views\\newsdetailwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB71A35F-727F-4BE9-8B09-1FFFB67710C1}|eco\\eco.csproj|c:\\users\\redmi\\downloads\\telegram desktop\\eco\\eco\\eco\\views\\achievementsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB71A35F-727F-4BE9-8B09-1FFFB67710C1}|eco\\eco.csproj|solutionrelative:eco\\views\\achievementsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adeli\\AppData\\Local\\Temp\\.vsdbgsrc\\2555e659cb52a1d328b9a33b879795c6f022ebfd9b5e54615bbcf4c64902a9a6\\DefaultBinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adeli\\AppData\\Local\\Temp\\.vsdbgsrc\\ee34aec267e065140087abd7fd236fad482e6d3ee1f4162ad1b181c8d9923474\\XamlReader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB71A35F-727F-4BE9-8B09-1FFFB67710C1}|eco\\eco.csproj|c:\\users\\redmi\\downloads\\telegram desktop\\eco\\eco\\eco\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EB71A35F-727F-4BE9-8B09-1FFFB67710C1}|eco\\eco.csproj|solutionrelative:eco\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB71A35F-727F-4BE9-8B09-1FFFB67710C1}|eco\\eco.csproj|c:\\users\\redmi\\downloads\\telegram desktop\\eco\\eco\\eco\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{EB71A35F-727F-4BE9-8B09-1FFFB67710C1}|eco\\eco.csproj|solutionrelative:eco\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\redmi\\Downloads\\Telegram Desktop\\eco\\eco\\eco\\appsettings.json",
+              "RelativeDocumentMoniker": "eco\\appsettings.json",
+              "ToolTip": "C:\\Users\\redmi\\Downloads\\Telegram Desktop\\eco\\eco\\eco\\appsettings.json",
+              "RelativeToolTip": "eco\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-20T07:59:52.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EcoDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\redmi\\Downloads\\Telegram Desktop\\eco\\eco\\eco\\Data\\EcoDbContext.cs",
+              "RelativeDocumentMoniker": "eco\\Data\\EcoDbContext.cs",
+              "ToolTip": "C:\\Users\\redmi\\Downloads\\Telegram Desktop\\eco\\eco\\eco\\Data\\EcoDbContext.cs",
+              "RelativeToolTip": "eco\\Data\\EcoDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T07:46:19.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NullToVisibilityConverter.cs",
+              "DocumentMoniker": "C:\\Users\\redmi\\Downloads\\Telegram Desktop\\eco\\eco\\eco\\Converters\\NullToVisibilityConverter.cs",
+              "RelativeDocumentMoniker": "eco\\Converters\\NullToVisibilityConverter.cs",
+              "ToolTip": "C:\\Users\\redmi\\Downloads\\Telegram Desktop\\eco\\eco\\eco\\Converters\\NullToVisibilityConverter.cs",
+              "RelativeToolTip": "eco\\Converters\\NullToVisibilityConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T07:45:41.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BooleanToColorConverter.cs",
+              "DocumentMoniker": "C:\\Users\\redmi\\Downloads\\Telegram Desktop\\eco\\eco\\eco\\Converters\\BooleanToColorConverter.cs",
+              "RelativeDocumentMoniker": "eco\\Converters\\BooleanToColorConverter.cs",
+              "ToolTip": "C:\\Users\\redmi\\Downloads\\Telegram Desktop\\eco\\eco\\eco\\Converters\\BooleanToColorConverter.cs",
+              "RelativeToolTip": "eco\\Converters\\BooleanToColorConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T07:45:34.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\redmi\\Downloads\\Telegram Desktop\\eco\\eco\\eco\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "eco\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\redmi\\Downloads\\Telegram Desktop\\eco\\eco\\eco\\Services\\AuthService.cs",
+              "RelativeToolTip": "eco\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T07:45:20.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DesignTimeDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\redmi\\Downloads\\Telegram Desktop\\eco\\eco\\eco\\Data\\DesignTimeDbContextFactory.cs",
+              "RelativeDocumentMoniker": "eco\\Data\\DesignTimeDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\redmi\\Downloads\\Telegram Desktop\\eco\\eco\\eco\\Data\\DesignTimeDbContextFactory.cs",
+              "RelativeToolTip": "eco\\Data\\DesignTimeDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T07:41:22.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Script.sql ",
+              "DocumentMoniker": "C:\\Users\\redmi\\Downloads\\Telegram Desktop\\eco\\eco\\eco\\Script.sql",
+              "RelativeDocumentMoniker": "eco\\Script.sql",
+              "ToolTip": "C:\\Users\\redmi\\Downloads\\Telegram Desktop\\eco\\eco\\eco\\Script.sql",
+              "RelativeToolTip": "eco\\Script.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-09-19T21:54:45.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PromotionsView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\redmi\\Downloads\\Telegram Desktop\\eco\\eco\\eco\\Views\\PromotionsView.xaml.cs",
+              "RelativeDocumentMoniker": "eco\\Views\\PromotionsView.xaml.cs",
+              "ToolTip": "C:\\Users\\redmi\\Downloads\\Telegram Desktop\\eco\\eco\\eco\\Views\\PromotionsView.xaml.cs",
+              "RelativeToolTip": "eco\\Views\\PromotionsView.xaml.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAgwHQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T21:38:49.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\redmi\\Downloads\\Telegram Desktop\\eco\\eco\\eco\\App.xaml",
+              "RelativeDocumentMoniker": "eco\\App.xaml",
+              "ToolTip": "C:\\Users\\redmi\\Downloads\\Telegram Desktop\\eco\\eco\\eco\\App.xaml",
+              "RelativeToolTip": "eco\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-19T21:37:34.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PromotionsView.xaml",
+              "DocumentMoniker": "C:\\Users\\redmi\\Downloads\\Telegram Desktop\\eco\\eco\\eco\\Views\\PromotionsView.xaml",
+              "RelativeDocumentMoniker": "eco\\Views\\PromotionsView.xaml",
+              "ToolTip": "C:\\Users\\redmi\\Downloads\\Telegram Desktop\\eco\\eco\\eco\\Views\\PromotionsView.xaml",
+              "RelativeToolTip": "eco\\Views\\PromotionsView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-19T20:50:31.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SubmissionView.xaml",
+              "DocumentMoniker": "C:\\Users\\redmi\\Downloads\\Telegram Desktop\\eco\\eco\\eco\\Views\\SubmissionView.xaml",
+              "RelativeDocumentMoniker": "eco\\Views\\SubmissionView.xaml",
+              "ToolTip": "C:\\Users\\redmi\\Downloads\\Telegram Desktop\\eco\\eco\\eco\\Views\\SubmissionView.xaml",
+              "RelativeToolTip": "eco\\Views\\SubmissionView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-19T11:30:47.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserProfileView.xaml",
+              "DocumentMoniker": "C:\\Users\\redmi\\Downloads\\Telegram Desktop\\eco\\eco\\eco\\Views\\UserProfileView.xaml",
+              "RelativeDocumentMoniker": "eco\\Views\\UserProfileView.xaml",
+              "ToolTip": "C:\\Users\\redmi\\Downloads\\Telegram Desktop\\eco\\eco\\eco\\Views\\UserProfileView.xaml",
+              "RelativeToolTip": "eco\\Views\\UserProfileView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-19T11:30:44.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ChallengesView.xaml",
+              "DocumentMoniker": "C:\\Users\\redmi\\Downloads\\Telegram Desktop\\eco\\eco\\eco\\Views\\ChallengesView.xaml",
+              "RelativeDocumentMoniker": "eco\\Views\\ChallengesView.xaml",
+              "ToolTip": "C:\\Users\\redmi\\Downloads\\Telegram Desktop\\eco\\eco\\eco\\Views\\ChallengesView.xaml",
+              "RelativeToolTip": "eco\\Views\\ChallengesView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-19T11:30:39.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\redmi\\Downloads\\Telegram Desktop\\eco\\eco\\eco\\Views\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "eco\\Views\\LoginWindow.xaml",
+              "ToolTip": "C:\\Users\\redmi\\Downloads\\Telegram Desktop\\eco\\eco\\eco\\Views\\LoginWindow.xaml",
+              "RelativeToolTip": "eco\\Views\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-19T11:51:10.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RecyclingPointsView.xaml",
+              "DocumentMoniker": "C:\\Users\\redmi\\Downloads\\Telegram Desktop\\eco\\eco\\eco\\Views\\RecyclingPointsView.xaml",
+              "RelativeDocumentMoniker": "eco\\Views\\RecyclingPointsView.xaml",
+              "ToolTip": "C:\\Users\\redmi\\Downloads\\Telegram Desktop\\eco\\eco\\eco\\Views\\RecyclingPointsView.xaml",
+              "RelativeToolTip": "eco\\Views\\RecyclingPointsView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-19T17:51:58.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NewsView.xaml",
+              "DocumentMoniker": "C:\\Users\\redmi\\Downloads\\Telegram Desktop\\eco\\eco\\eco\\Views\\NewsView.xaml",
+              "RelativeDocumentMoniker": "eco\\Views\\NewsView.xaml",
+              "ToolTip": "C:\\Users\\redmi\\Downloads\\Telegram Desktop\\eco\\eco\\eco\\Views\\NewsView.xaml",
+              "RelativeToolTip": "eco\\Views\\NewsView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-19T11:30:31.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\redmi\\Downloads\\Telegram Desktop\\eco\\eco\\eco\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "eco\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\redmi\\Downloads\\Telegram Desktop\\eco\\eco\\eco\\MainWindow.xaml",
+              "RelativeToolTip": "eco\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-19T11:02:07.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserProfileView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\redmi\\Downloads\\Telegram Desktop\\eco\\eco\\eco\\Views\\UserProfileView.xaml.cs",
+              "RelativeDocumentMoniker": "eco\\Views\\UserProfileView.xaml.cs",
+              "ToolTip": "C:\\Users\\redmi\\Downloads\\Telegram Desktop\\eco\\eco\\eco\\Views\\UserProfileView.xaml.cs",
+              "RelativeToolTip": "eco\\Views\\UserProfileView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T17:56:25.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RegisterWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\redmi\\Downloads\\Telegram Desktop\\eco\\eco\\eco\\Views\\RegisterWindow.xaml",
+              "RelativeDocumentMoniker": "eco\\Views\\RegisterWindow.xaml",
+              "ToolTip": "C:\\Users\\redmi\\Downloads\\Telegram Desktop\\eco\\eco\\eco\\Views\\RegisterWindow.xaml",
+              "RelativeToolTip": "eco\\Views\\RegisterWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-19T11:50:44.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\redmi\\Downloads\\Telegram Desktop\\eco\\eco\\eco\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "eco\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\redmi\\Downloads\\Telegram Desktop\\eco\\eco\\eco\\MainWindow.xaml.cs",
+              "RelativeToolTip": "eco\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T11:02:04.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "NewsDetailWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\redmi\\Downloads\\Telegram Desktop\\eco\\eco\\eco\\Views\\NewsDetailWindow.xaml",
+              "RelativeDocumentMoniker": "eco\\Views\\NewsDetailWindow.xaml",
+              "ToolTip": "C:\\Users\\redmi\\Downloads\\Telegram Desktop\\eco\\eco\\eco\\Views\\NewsDetailWindow.xaml",
+              "RelativeToolTip": "eco\\Views\\NewsDetailWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-19T11:30:35.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AchievementsView.xaml",
+              "DocumentMoniker": "C:\\Users\\redmi\\Downloads\\Telegram Desktop\\eco\\eco\\eco\\Views\\AchievementsView.xaml",
+              "RelativeDocumentMoniker": "eco\\Views\\AchievementsView.xaml",
+              "ToolTip": "C:\\Users\\redmi\\Downloads\\Telegram Desktop\\eco\\eco\\eco\\Views\\AchievementsView.xaml",
+              "RelativeToolTip": "eco\\Views\\AchievementsView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-19T11:30:42.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DefaultBinder.cs",
+              "DocumentMoniker": "C:\\Users\\adeli\\AppData\\Local\\Temp\\.vsdbgsrc\\2555e659cb52a1d328b9a33b879795c6f022ebfd9b5e54615bbcf4c64902a9a6\\DefaultBinder.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\adeli\\AppData\\Local\\Temp\\.vsdbgsrc\\2555e659cb52a1d328b9a33b879795c6f022ebfd9b5e54615bbcf4c64902a9a6\\DefaultBinder.cs",
+              "ToolTip": "C:\\Users\\adeli\\AppData\\Local\\Temp\\.vsdbgsrc\\2555e659cb52a1d328b9a33b879795c6f022ebfd9b5e54615bbcf4c64902a9a6\\DefaultBinder.cs [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\adeli\\AppData\\Local\\Temp\\.vsdbgsrc\\2555e659cb52a1d328b9a33b879795c6f022ebfd9b5e54615bbcf4c64902a9a6\\DefaultBinder.cs [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAowFEAAAADAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T11:32:55.155Z",
+              "EditorCaption": " [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "XamlReader.cs",
+              "DocumentMoniker": "C:\\Users\\adeli\\AppData\\Local\\Temp\\.vsdbgsrc\\ee34aec267e065140087abd7fd236fad482e6d3ee1f4162ad1b181c8d9923474\\XamlReader.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\adeli\\AppData\\Local\\Temp\\.vsdbgsrc\\ee34aec267e065140087abd7fd236fad482e6d3ee1f4162ad1b181c8d9923474\\XamlReader.cs",
+              "ToolTip": "C:\\Users\\adeli\\AppData\\Local\\Temp\\.vsdbgsrc\\ee34aec267e065140087abd7fd236fad482e6d3ee1f4162ad1b181c8d9923474\\XamlReader.cs [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\adeli\\AppData\\Local\\Temp\\.vsdbgsrc\\ee34aec267e065140087abd7fd236fad482e6d3ee1f4162ad1b181c8d9923474\\XamlReader.cs [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]",
+              "ViewState": "AgIAAOwBAAAAAAAAAAAlwP4BAAACAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T11:36:13.883Z",
+              "EditorCaption": " [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

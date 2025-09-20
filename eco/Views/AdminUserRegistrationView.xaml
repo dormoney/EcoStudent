@@ -1,0 +1,145 @@
+<UserControl x:Class="eco.Views.AdminUserRegistrationView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="800">
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <StackPanel Margin="24">
+            <TextBlock Text="Регистрация пользователей" 
+                       FontSize="24" 
+                       FontWeight="Bold" 
+                       Margin="0,0,0,24"/>
+
+            <!-- Registration Form -->
+            <materialDesign:Card Padding="24" Margin="0,0,0,24">
+                <StackPanel>
+                    <TextBlock Text="Новый пользователь" 
+                               FontSize="18" 
+                               FontWeight="Bold" 
+                               Margin="0,0,0,16"/>
+
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+
+                        <!-- Full Name -->
+                        <TextBlock Grid.Row="0" Grid.Column="0" 
+                                   Text="Полное имя:" 
+                                   VerticalAlignment="Center" 
+                                   Margin="0,0,0,8"/>
+                        <TextBox x:Name="FullNameTextBox" 
+                                 Grid.Row="0" Grid.Column="1" 
+                                 materialDesign:HintAssist.Hint="Введите полное имя"
+                                 Margin="0,0,0,8"/>
+
+                        <!-- Email -->
+                        <TextBlock Grid.Row="1" Grid.Column="0" 
+                                   Text="Email:" 
+                                   VerticalAlignment="Center" 
+                                   Margin="0,0,0,8"/>
+                        <TextBox x:Name="EmailTextBox" 
+                                 Grid.Row="1" Grid.Column="1" 
+                                 materialDesign:HintAssist.Hint="Введите email"
+                                 Margin="0,0,0,8"/>
+
+                        <!-- Password -->
+                        <TextBlock Grid.Row="2" Grid.Column="0" 
+                                   Text="Пароль:" 
+                                   VerticalAlignment="Center" 
+                                   Margin="0,0,0,8"/>
+                        <PasswordBox x:Name="PasswordBox" 
+                                     Grid.Row="2" Grid.Column="1" 
+                                     materialDesign:HintAssist.Hint="Введите пароль"
+                                     Margin="0,0,0,8"/>
+
+                        <!-- Group -->
+                        <TextBlock Grid.Row="3" Grid.Column="0" 
+                                   Text="Группа:" 
+                                   VerticalAlignment="Center" 
+                                   Margin="0,0,0,8"/>
+                        <ComboBox x:Name="GroupComboBox" 
+                                  Grid.Row="3" Grid.Column="1" 
+                                  materialDesign:HintAssist.Hint="Выберите группу"
+                                  Margin="0,0,0,8"/>
+
+                        <!-- User Type -->
+                        <TextBlock Grid.Row="4" Grid.Column="0" 
+                                   Text="Тип пользователя:" 
+                                   VerticalAlignment="Center" 
+                                   Margin="0,0,0,8"/>
+                        <ComboBox x:Name="UserTypeComboBox" 
+                                  Grid.Row="4" Grid.Column="1" 
+                                  materialDesign:HintAssist.Hint="Выберите тип пользователя"
+                                  Margin="0,0,0,16">
+                            <ComboBoxItem Content="Студент" Tag="Student"/>
+                            <ComboBoxItem Content="Администратор" Tag="Admin"/>
+                            <ComboBoxItem Content="Администратор пункта" Tag="PointAdmin"/>
+                        </ComboBox>
+
+                        <!-- Register Button -->
+                        <Button x:Name="RegisterButton" 
+                                Grid.Row="5" Grid.Column="1" 
+                                Content="Зарегистрировать" 
+                                Style="{DynamicResource MaterialDesignRaisedButton}"
+                                HorizontalAlignment="Right"
+                                Click="RegisterButton_Click"/>
+                    </Grid>
+                </StackPanel>
+            </materialDesign:Card>
+
+            <!-- Users List -->
+            <materialDesign:Card Padding="24">
+                <StackPanel>
+                    <TextBlock Text="Зарегистрированные пользователи" 
+                               FontSize="18" 
+                               FontWeight="Bold" 
+                               Margin="0,0,0,16"/>
+
+                    <DataGrid x:Name="UsersDataGrid" 
+                              AutoGenerateColumns="False" 
+                              CanUserAddRows="False" 
+                              CanUserDeleteRows="False"
+                              IsReadOnly="True"
+                              GridLinesVisibility="Horizontal"
+                              HeadersVisibility="Column">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="ID" Binding="{Binding UserId}" Width="50"/>
+                            <DataGridTextColumn Header="Полное имя" Binding="{Binding FullName}" Width="200"/>
+                            <DataGridTextColumn Header="Email" Binding="{Binding Email}" Width="250"/>
+                            <DataGridTextColumn Header="Группа" Binding="{Binding Group.GroupName}" Width="100"/>
+                            <DataGridTextColumn Header="Баллы" Binding="{Binding TotalPoints}" Width="80"/>
+                            <DataGridTextColumn Header="Дата регистрации" Binding="{Binding RegistrationDate, StringFormat=dd.MM.yyyy}" Width="120"/>
+                            <DataGridTemplateColumn Header="Действия" Width="150">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <StackPanel Orientation="Horizontal">
+                                            <Button Content="Удалить" 
+                                                    Style="{DynamicResource MaterialDesignOutlinedButton}"
+                                                    Click="DeleteUserButton_Click"
+                                                    Tag="{Binding UserId}"
+                                                    Margin="0,0,4,0"/>
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </StackPanel>
+            </materialDesign:Card>
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>

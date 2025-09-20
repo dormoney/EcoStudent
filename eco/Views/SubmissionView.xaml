@@ -1,0 +1,124 @@
+<UserControl x:Class="eco.Views.SubmissionView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="800"
+             Background="{DynamicResource MaterialDesignPaper}">
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <StackPanel Margin="16">
+            <TextBlock Text="Сдача вторсырья" FontSize="28" Margin="0,0,0,16"/>
+            <TextBlock Text="Заполните форму для сдачи вторичного сырья" FontSize="16" Opacity="0.7" Margin="0,0,0,32"/>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="16"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- Форма сдачи -->
+                <materialDesign:Card Grid.Column="0" Padding="24">
+                    <StackPanel>
+                        <TextBlock Text="Информация о сдаче" FontSize="20" Margin="0,0,0,24"/>
+
+                        <ComboBox x:Name="RecyclingPointComboBox"
+                                 materialDesign:HintAssist.Hint="Выберите пункт сдачи"
+                                 Style="{DynamicResource MaterialDesignFloatingHintComboBox}"
+                                 Margin="0,0,0,16"
+                                 DisplayMemberPath="Name"
+                                 SelectedValuePath="PointId"/>
+
+                        <ComboBox x:Name="MaterialTypeComboBox"
+                                 materialDesign:HintAssist.Hint="Тип материала"
+                                 Style="{DynamicResource MaterialDesignFloatingHintComboBox}"
+                                 Margin="0,0,0,16">
+                            <ComboBoxItem Content="Пластик"/>
+                            <ComboBoxItem Content="Бумага"/>
+                            <ComboBoxItem Content="Стекло"/>
+                            <ComboBoxItem Content="Металл"/>
+                            <ComboBoxItem Content="Батарейки"/>
+                        </ComboBox>
+
+                        <TextBox x:Name="WeightTextBox"
+                                materialDesign:HintAssist.Hint="Вес (кг)"
+                                Style="{DynamicResource MaterialDesignFloatingHintTextBox}"
+                                Margin="0,0,0,16"/>
+
+
+                        <Button x:Name="SubmitButton" 
+                               Content="Сдать вторсырье"
+                               Style="{DynamicResource MaterialDesignRaisedButton}"
+                               Click="SubmitButton_Click"
+                               Margin="0,24,0,0"/>
+
+                        <TextBlock x:Name="MessageTextBlock" 
+                                  Text="" 
+                                  HorizontalAlignment="Center" 
+                                  Margin="0,16,0,0"
+                                  Visibility="Collapsed"/>
+                    </StackPanel>
+                </materialDesign:Card>
+
+                <!-- Информационная панель -->
+                <materialDesign:Card Grid.Column="2" Padding="16">
+                    <StackPanel>
+                        <TextBlock Text="Информация" FontSize="18" Margin="0,0,0,16"/>
+
+                        <Border Background="{DynamicResource PrimaryHueLightBrush}" 
+                               CornerRadius="8" Padding="12" Margin="0,0,0,16">
+                            <StackPanel>
+                                <TextBlock Text="Баллы за сдачу" HorizontalAlignment="Center"/>
+                                <TextBlock Text="• Пластик: 10 б/кг" HorizontalAlignment="Center"/>
+                                <TextBlock Text="• Бумага: 5 б/кг" HorizontalAlignment="Center"/>
+                                <TextBlock Text="• Стекло: 15 б/кг" HorizontalAlignment="Center"/>
+                                <TextBlock Text="• Металл: 25 б/кг" HorizontalAlignment="Center"/>
+                                <TextBlock Text="• Батарейки: 50 б/кг" HorizontalAlignment="Center"/>
+                            </StackPanel>
+                        </Border>
+                    </StackPanel>
+                </materialDesign:Card>
+            </Grid>
+
+            <!-- История сдач -->
+            <materialDesign:Card Margin="0,24,0,0" Padding="24">
+                <StackPanel>
+                    <TextBlock Text="Моя история сдач" FontSize="20" Margin="0,0,0,16"/>
+                    <DataGrid x:Name="SubmissionsDataGrid" 
+                             AutoGenerateColumns="False"
+                             CanUserAddRows="False"
+                             CanUserDeleteRows="False"
+                             IsReadOnly="True"
+                             GridLinesVisibility="Horizontal"
+                             HeadersVisibility="Column">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Дата" Binding="{Binding SubmissionDate, StringFormat=dd.MM.yyyy HH:mm}" Width="140"/>
+                            <DataGridTextColumn Header="Пункт сдачи" Binding="{Binding RecyclingPoint.Name}" Width="200"/>
+                            <DataGridTextColumn Header="Материал" Binding="{Binding MaterialType}" Width="120"/>
+                            <DataGridTextColumn Header="Вес (кг)" Binding="{Binding WeightKg, StringFormat=F2}" Width="80"/>
+                            <DataGridTextColumn Header="Баллы" Binding="{Binding PointsAwarded}" Width="80"/>
+                            <DataGridTemplateColumn Header="Статус" Width="100">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <StackPanel Orientation="Horizontal">
+                                            <materialDesign:PackIcon Kind="CheckCircle" 
+                                                                   Foreground="Green" 
+                                                                   Width="16" Height="16"
+                                                                   VerticalAlignment="Center"
+                                                                   Visibility="{Binding IsVerified, Converter={StaticResource BooleanToVisibilityConverter}}"/>
+                                            <TextBlock Text="{Binding IsVerified, Converter={StaticResource BooleanToStringConverter}}" 
+                                                      VerticalAlignment="Center" Margin="4,0,0,0"/>
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </StackPanel>
+            </materialDesign:Card>
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>

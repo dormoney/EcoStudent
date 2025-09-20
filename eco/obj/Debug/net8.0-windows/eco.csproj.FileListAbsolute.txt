@@ -1,0 +1,314 @@
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\appsettings.json
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\eco.exe
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\eco.deps.json
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\eco.runtimeconfig.json
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\eco.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\eco.pdb
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\Azure.Core.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\Azure.Identity.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\BCrypt.Net-Next.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\Humanizer.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\MaterialDesignColors.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\Mono.TextTemplating.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\System.Composition.AttributedModel.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\System.Composition.Convention.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\System.Composition.Hosting.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\System.Composition.Runtime.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\System.Composition.TypedParts.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\System.Memory.Data.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\adeli\source\repos\eco\eco\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\adeli\source\repos\eco\eco\obj\Debug\net8.0-windows\eco.csproj.AssemblyReference.cache
+C:\Users\adeli\source\repos\eco\eco\obj\Debug\net8.0-windows\Views\AchievementsView.baml
+C:\Users\adeli\source\repos\eco\eco\obj\Debug\net8.0-windows\Views\ChallengesView.baml
+C:\Users\adeli\source\repos\eco\eco\obj\Debug\net8.0-windows\Views\LoginWindow.baml
+C:\Users\adeli\source\repos\eco\eco\obj\Debug\net8.0-windows\Views\NewsDetailWindow.baml
+C:\Users\adeli\source\repos\eco\eco\obj\Debug\net8.0-windows\Views\NewsView.baml
+C:\Users\adeli\source\repos\eco\eco\obj\Debug\net8.0-windows\Views\RecyclingPointsView.baml
+C:\Users\adeli\source\repos\eco\eco\obj\Debug\net8.0-windows\Views\RegisterWindow.baml
+C:\Users\adeli\source\repos\eco\eco\obj\Debug\net8.0-windows\Views\SubmissionView.baml
+C:\Users\adeli\source\repos\eco\eco\obj\Debug\net8.0-windows\Views\UserProfileView.baml
+C:\Users\adeli\source\repos\eco\eco\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\adeli\source\repos\eco\eco\obj\Debug\net8.0-windows\Views\AchievementsView.g.cs
+C:\Users\adeli\source\repos\eco\eco\obj\Debug\net8.0-windows\Views\ChallengesView.g.cs
+C:\Users\adeli\source\repos\eco\eco\obj\Debug\net8.0-windows\Views\LoginWindow.g.cs
+C:\Users\adeli\source\repos\eco\eco\obj\Debug\net8.0-windows\Views\NewsDetailWindow.g.cs
+C:\Users\adeli\source\repos\eco\eco\obj\Debug\net8.0-windows\Views\NewsView.g.cs
+C:\Users\adeli\source\repos\eco\eco\obj\Debug\net8.0-windows\Views\RecyclingPointsView.g.cs
+C:\Users\adeli\source\repos\eco\eco\obj\Debug\net8.0-windows\Views\RegisterWindow.g.cs
+C:\Users\adeli\source\repos\eco\eco\obj\Debug\net8.0-windows\Views\SubmissionView.g.cs
+C:\Users\adeli\source\repos\eco\eco\obj\Debug\net8.0-windows\Views\UserProfileView.g.cs
+C:\Users\adeli\source\repos\eco\eco\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\adeli\source\repos\eco\eco\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\adeli\source\repos\eco\eco\obj\Debug\net8.0-windows\eco_MarkupCompile.cache
+C:\Users\adeli\source\repos\eco\eco\obj\Debug\net8.0-windows\eco_MarkupCompile.lref
+C:\Users\adeli\source\repos\eco\eco\obj\Debug\net8.0-windows\App.baml
+C:\Users\adeli\source\repos\eco\eco\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\adeli\source\repos\eco\eco\obj\Debug\net8.0-windows\eco.g.resources
+C:\Users\adeli\source\repos\eco\eco\obj\Debug\net8.0-windows\eco.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adeli\source\repos\eco\eco\obj\Debug\net8.0-windows\eco.AssemblyInfoInputs.cache
+C:\Users\adeli\source\repos\eco\eco\obj\Debug\net8.0-windows\eco.AssemblyInfo.cs
+C:\Users\adeli\source\repos\eco\eco\obj\Debug\net8.0-windows\eco.csproj.CoreCompileInputs.cache
+C:\Users\adeli\source\repos\eco\eco\obj\Debug\net8.0-windows\eco.csproj.Up2Date
+C:\Users\adeli\source\repos\eco\eco\obj\Debug\net8.0-windows\eco.dll
+C:\Users\adeli\source\repos\eco\eco\obj\Debug\net8.0-windows\refint\eco.dll
+C:\Users\adeli\source\repos\eco\eco\obj\Debug\net8.0-windows\eco.pdb
+C:\Users\adeli\source\repos\eco\eco\obj\Debug\net8.0-windows\eco.genruntimeconfig.cache
+C:\Users\adeli\source\repos\eco\eco\obj\Debug\net8.0-windows\ref\eco.dll
+C:\Users\adeli\source\repos\eco\eco\obj\Debug\net8.0-windows\Views\PromotionsView.baml
+C:\Users\adeli\source\repos\eco\eco\obj\Debug\net8.0-windows\Views\PromotionsView.g.cs
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\appsettings.json
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\eco.exe
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\eco.deps.json
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\eco.runtimeconfig.json
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\eco.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\eco.pdb
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\Azure.Core.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\Azure.Identity.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\BCrypt.Net-Next.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\Humanizer.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\MaterialDesignColors.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\Mono.TextTemplating.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\System.Composition.AttributedModel.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\System.Composition.Convention.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\System.Composition.Hosting.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\System.Composition.Runtime.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\System.Composition.TypedParts.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\System.Memory.Data.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\obj\Debug\net8.0-windows\eco.csproj.AssemblyReference.cache
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\obj\Debug\net8.0-windows\Views\AchievementsView.baml
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\obj\Debug\net8.0-windows\Views\ChallengesView.baml
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\obj\Debug\net8.0-windows\Views\LoginWindow.baml
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\obj\Debug\net8.0-windows\Views\NewsDetailWindow.baml
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\obj\Debug\net8.0-windows\Views\NewsView.baml
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\obj\Debug\net8.0-windows\Views\PromotionsView.baml
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\obj\Debug\net8.0-windows\Views\RecyclingPointsView.baml
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\obj\Debug\net8.0-windows\Views\RegisterWindow.baml
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\obj\Debug\net8.0-windows\Views\SubmissionView.baml
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\obj\Debug\net8.0-windows\Views\UserProfileView.baml
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\obj\Debug\net8.0-windows\Views\AchievementsView.g.cs
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\obj\Debug\net8.0-windows\Views\ChallengesView.g.cs
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\obj\Debug\net8.0-windows\Views\LoginWindow.g.cs
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\obj\Debug\net8.0-windows\Views\NewsDetailWindow.g.cs
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\obj\Debug\net8.0-windows\Views\NewsView.g.cs
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\obj\Debug\net8.0-windows\Views\PromotionsView.g.cs
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\obj\Debug\net8.0-windows\Views\RecyclingPointsView.g.cs
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\obj\Debug\net8.0-windows\Views\RegisterWindow.g.cs
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\obj\Debug\net8.0-windows\Views\SubmissionView.g.cs
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\obj\Debug\net8.0-windows\Views\UserProfileView.g.cs
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\obj\Debug\net8.0-windows\eco_MarkupCompile.cache
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\obj\Debug\net8.0-windows\eco_MarkupCompile.lref
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\obj\Debug\net8.0-windows\App.baml
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\obj\Debug\net8.0-windows\eco.g.resources
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\obj\Debug\net8.0-windows\eco.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\obj\Debug\net8.0-windows\eco.AssemblyInfoInputs.cache
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\obj\Debug\net8.0-windows\eco.AssemblyInfo.cs
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\obj\Debug\net8.0-windows\eco.csproj.CoreCompileInputs.cache
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\obj\Debug\net8.0-windows\eco.csproj.Up2Date
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\obj\Debug\net8.0-windows\eco.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\obj\Debug\net8.0-windows\refint\eco.dll
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\obj\Debug\net8.0-windows\eco.pdb
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\obj\Debug\net8.0-windows\eco.genruntimeconfig.cache
+C:\Users\redmi\Downloads\Telegram Desktop\eco\eco\eco\obj\Debug\net8.0-windows\ref\eco.dll
